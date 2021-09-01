@@ -17,22 +17,7 @@
 				<div class="col-md-12">
 					<div class="home-slider-container">
 
-						<!-- Slide Title --
-						{{-- <div class="home-slider-desc">
-							
-							<div class="home-slider-price">
-								$1700 <i>/ monthly</i>
-							</div>
-
-							<div class="home-slider-title">
-								<h3><a href="single-property-page-1.html">Meridian Villas</a></h3>
-								<span><i class="fa fa-map-marker"></i> 778 Country St. Panama City, FL</span>
-							</div>
-
-							<a href="single-property-page-1.html" class="read-more">View Details <i class="fa fa-angle-right"></i></a>
-
-						</div> --}}
-						<!-- Slide Title / End -->
+					
 
 					</div>
 				</div>
@@ -40,35 +25,12 @@
 		</div>
 	</div>
 
-
-	
-	
-
-	
-
 	<!-- Slide-->
 	<div data-background-image="/images/sliders/IMG-20200128-WA0007.jpg" class="item">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="home-slider-container">
-
-						<!-- Slide Title-->
-						{{-- <div class="home-slider-desc">
-							
-							<div class="home-slider-price">
-								$325,000
-							</div>
-
-							<div class="home-slider-title">
-								<h3><a href="single-property-page-1.html">Eagle Apartments</a></h3>
-								<span><i class="fa fa-map-marker"></i> 9364 School St. Lynchburg, NY</span>
-							</div>
-
-							<a href="single-property-page-1.html" class="read-more">View Details <i class="fa fa-angle-right"></i></a>
-
-						</div> --}}
-						<!-- Slide Title / End-->
 						
 					</div>
 				</div>
@@ -82,23 +44,6 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="home-slider-container">
-
-						<!-- Slide Title--> 
-						{{-- <div class="home-slider-desc">
-							
-							<div class="home-slider-price">
-								$500 <i>/ monthly</i>
-							</div>
-
-							<div class="home-slider-title">
-								<h3><a href="single-property-page-1.html">Old Town Manchester</a></h3>
-								<span><i class="fa fa-map-marker"></i> 7843 Durham Avenue, MD </span>
-							</div>
-
-							<a href="single-property-page-1.html" class="read-more">View Details <i class="fa fa-angle-right"></i></a>
-
-						</div> --}}
-						<!-- Slide Title / End -->
 						
 					</div>
 				</div>
@@ -108,12 +53,6 @@
 
 
 </div>
-
-
-
-
-
-
 
 
 <!-- Content
@@ -142,40 +81,17 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo4">
+                	<a href="/list">
+                		<div class="single-promo promo4">
                         <i class="fa fa-gift"></i>
                         <p>New products</p>
-                    </div>
+                    	</div>
+                	</a>
+                    
                 </div>
             </div>
         </div>
     </div> <!-- End promo area -->
-
-<!-- Latest jQuery form server -->
-    <script src="https://code.jquery.com/jquery.min.js"></script>
-    
-    <!-- Bootstrap JS form CDN -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    
-    <!-- jQuery sticky menu -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    
-    <!-- jQuery easing -->
-    <script src="js/jquery.easing.1.3.min.js"></script>
-    
-    <!-- Main Script -->
-    <script src="js/main.js"></script>
-    
-    <!-- Slider -->
-    <script type="text/javascript" src="js/bxslider.min.js"></script>
-	<script type="text/javascript" src="js/script.slider.js"></script>
-
-
-
-
-
-
 
 
 <!-- Featured -->
@@ -215,7 +131,7 @@
 									</ul>
 								</div>
 
-								<img src=" {{ asset('images/properties/'.json_decode($list->p_image,true)[0])}}" alt="Image here" height="250em" width="200em">
+								<img src=" {{ asset('images/properties/'.json_decode($list->p_image,true)[0])}}" alt="Image here" height="250px" width="200px">
 							</a>
 
 						</div>
@@ -405,7 +321,7 @@
 
 					<div class="agent-avatar">
 						<a href="{{url('#team')}}">
-							<img height="590px" width="590px" src="images/our_team/member_1.png" alt="">
+							<img height="590px" width="590px" src="images/our_team/member_1.jpg" alt="">
 							{{-- view profile --}}
 							<span class="view-profile-btn"></span>
 						</a>
@@ -441,7 +357,7 @@
 
 					<div class="agent-avatar">
 						<a href="{{url('#team')}}">
-							<img height="590px" width="590px" src="images/our_team/member_2.jpg" alt="">
+							<img height="590px" width="590px" src="images/our_team/member_1.jpg" alt="">
 							{{-- view profile --}}
 							<span class="view-profile-btn"></span>
 						</a>
@@ -477,7 +393,7 @@
 
 					<div class="agent-avatar">
 						<a href="{{url('#team')}}">
-							<img height="590px" width="590px" src="images/our_team/member_3.jpg" alt="">
+							<img height="590px" width="590px" src="images/our_team/member_1.jpg" alt="">
 							{{-- view profile --}}
 							<span class="view-profile-btn"></span>
 						</a>
@@ -513,7 +429,7 @@
 
 					<div class="agent-avatar">
 						<a href="{{url('#team')}}">
-							<img height="590px" width="590px" src="images/our_team/member_4.jpg" alt="">
+							<img height="590px" width="590px" src="images/our_team/member_1.jpg" alt="">
 							{{-- view profile --}}
 							<span class="view-profile-btn"></span>
 						</a>

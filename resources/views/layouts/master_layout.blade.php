@@ -12,11 +12,9 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
     
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
@@ -25,9 +23,9 @@
 <link rel="stylesheet" href="{{asset('css/style.css')}}">
 <link rel="stylesheet" href="{{asset('css/color.css')}}">
 <link rel="stylesheet" href="{{asset('css/custom.css')}}">
- <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+ <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{asset('style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
 
 
 <!-- tab icon -->
@@ -219,21 +217,22 @@
 
 <!-- Scripts
 ================================================== -->
+
 <script data-cfasync="false" src="http://www.vasterad.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="/scripts/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/scripts/jquery-migrate-3.1.0.min.js"></script>
-<script type="text/javascript" src="/scripts/chosen.min.js"></script>
-<script type="text/javascript" src="/scripts/magnific-popup.min.js"></script>
-<script type="text/javascript" src="/scripts/owl.carousel.min.js"></script>
-<script type="text/javascript" src="/scripts/rangeSlider.js"></script>
-<script type="text/javascript" src="/scripts/sticky-kit.min.js"></script>
-<script type="text/javascript" src="/scripts/slick.min.js"></script>
-<script type="text/javascript" src="/scripts/mmenu.min.js"></script>
-<script type="text/javascript" src="/scripts/tooltips.min.js"></script>
-<script type="text/javascript" src="/scripts/masonry.min.js"></script>
-<script type="text/javascript" src="/scripts/jquery.counterup.min.js"></script>
-<script type="text/javascript" src="/scripts/custom.js"></script>
+<script type="text/javascript" src="{{asset('scripts/jquery-migrate-3.1.0.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/chosen.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/magnific-popup.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/owl.carousel.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/rangeSlider.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/sticky-kit.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/slick.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/mmenu.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/tooltips.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/masonry.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/jquery.counterup.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('scripts/custom.js')}}"></script>
 <!-- DropZone | Documentation: http://dropzonejs.com -->
-<script type="text/javascript" src="/scripts/dropzone.js"></script>
+<script type="text/javascript" src="{{asset('scripts/dropzone.js')}}"></script>
 
 @yield('maps')
 
